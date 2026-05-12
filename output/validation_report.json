@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "total_samples": 1439,
+    "timestamp": "2026-05-12"
+  },
+  "quality_metrics": {
+    "format_completeness": {
+      "image_fields": "1339/1439",
+      "conversation_fields": "1439/1439",
+      "metadata_fields": "1339/1439"
+    },
+    "type_distribution": {
+      "generated_high_value": 1000,
+      "counterfactual_chain": 100,
+      "unknown": 100,
+      "red_blue_over-refusal": 100,
+      "boundary_sample": 52,
+      "sensitive_img_safe_q": 50,
+      "safe_img_safe_q": 23,
+      "sensitive_img_malicious_q": 13,
+      "safe_img_malicious_q": 1
+    },
+    "question_diversity": {
+      "total_questions": 1539,
+      "unique_questions": 994,
+      "duplication_rate": "35.4%"
+    },
+    "intent_distribution": {
+      "unknown": 1352,
+      "benign": 73,
+      "malicious": 14
+    },
+    "vision_dependency": {
+      "vision_required": 85,
+      "text_only_solvable": 1254
+    }
+  },
+  "recommendations": [
+    "建议增加问题多样性，当前重复率较高",
+    "建议增加需要视觉理解的样本比例"
+  ]
+}

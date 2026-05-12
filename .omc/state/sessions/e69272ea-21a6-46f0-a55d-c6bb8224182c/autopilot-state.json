@@ -1,0 +1,11 @@
+{
+  "active": true,
+  "started_at": "2026-05-11T14:13:53.962Z",
+  "original_prompt": "autopilot:分析当前目录，详解数据集构建的可行性",
+  "session_id": "e69272ea-21a6-46f0-a55d-c6bb8224182c",
+  "project_path": "/home/disk/q3s2/data_generation_pipeline",
+  "reinforcement_count": 0,
+  "awaiting_confirmation": true,
+  "awaiting_confirmation_set_at": "2026-05-11T14:13:53.962Z",
+  "last_checked_at": "2026-05-11T14:13:53.962Z"
+}
