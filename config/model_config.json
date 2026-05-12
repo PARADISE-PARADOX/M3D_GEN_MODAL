@@ -1,0 +1,31 @@
+{
+    "model_name": "Qwen/Qwen3-VL-30B-A3B-Instruct-FP8",
+    "model_path": "/home/disk/q3s2/evaluate_models/Qwen3-VL-30B-A3B-Instruct-FP8",
+    "model_type": "qwen3-vl",
+    "quantization": "fp8",
+    "context_length": 131072,
+    "max_output_tokens": 2048,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1,
+    "cuda_visible_devices": "0",
+    "deployment": {
+        "method": "vllm",
+        "api_base": "http://localhost:8000/v1",
+        "api_key": "dummy",
+        "port": 8000
+    },
+    "performance": {
+        "tokens_per_second": 130.1,
+        "ttft_ms": 1026,
+        "docvqa_score": 95.0,
+        "ocrbench_score": 90.3,
+        "mmmo_score": 74.2
+    },
+    "capabilities": {
+        "image_input": true,
+        "video_input": false,
+        "text_output": true,
+        "multimodal": true
+    }
+}

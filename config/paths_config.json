@@ -1,0 +1,19 @@
+{
+    "input": {
+        "train_data": "/home/disk/q3s2/data_generation/Our_Dataset/final_dataset/20260309/sensitive_images/train_updated.json",
+        "eval_data": "/home/disk/q3s2/benchmark/holisafe/test_result_2/safewen-7b_holisafe_bench_eval_by_qwen_results.json",
+        "image_base_train": "/home/disk/q3s2/data_generation/Our_Dataset/images",
+        "image_base_eval": "/home/disk/q3s2/benchmark/holisafe/images"
+    },
+    "output": {
+        "pipeline_dir": "/home/disk/q3s2/data_generation_pipeline/output",
+        "cross_modal": "/home/disk/q3s2/data_generation_pipeline/output/cross_modal_samples.json",
+        "counterfactual": "/home/disk/q3s2/data_generation_pipeline/output/counterfactual_samples.json",
+        "semantic_boundary": "/home/disk/q3s2/data_generation_pipeline/output/semantic_boundary_samples.json",
+        "red_blue": "/home/disk/q3s2/data_generation_pipeline/output/red_blue_samples.json",
+        "optimized": "/home/disk/q3s2/data_generation_pipeline/output/optimized_samples.json",
+        "final_combined": "/home/disk/q3s2/data_generation_pipeline/output/final_combined_dataset.json"
+    },
+    "scripts_dir": "/home/disk/q3s2/data_generation_pipeline/scripts",
+    "analysis_dir": "/home/disk/q3s2/claude_code"
+}
